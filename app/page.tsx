@@ -40,11 +40,6 @@ export default async function Home() {
                 Get Started Free
               </Button>
             </SignUpButton>
-            <SignInButton mode="modal">
-              <Button size="lg" variant="outline" className="text-base px-8">
-                Sign In
-              </Button>
-            </SignInButton>
           </div>
         </div>
       </section>
