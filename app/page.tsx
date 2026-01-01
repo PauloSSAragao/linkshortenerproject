@@ -63,9 +63,7 @@ export default async function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between mb-2">
-                <Link2 className="h-8 w-8 text-primary" />
-              </div>
+              <Link2 className="h-8 w-8 text-primary mb-2" />
               <CardTitle>Instant URL Shortening</CardTitle>
               <CardDescription>
                 Create short, memorable links in seconds. Perfect for social media, emails, and marketing campaigns.
@@ -75,9 +73,7 @@ export default async function Home() {
 
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between mb-2">
-                <BarChart3 className="h-8 w-8 text-primary" />
-              </div>
+              <BarChart3 className="h-8 w-8 text-primary mb-2" />
               <CardTitle>Analytics & Insights</CardTitle>
               <CardDescription>
                 Track clicks, monitor performance, and gain valuable insights into your audience engagement.
@@ -87,9 +83,7 @@ export default async function Home() {
 
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between mb-2">
-                <Zap className="h-8 w-8 text-primary" />
-              </div>
+              <Zap className="h-8 w-8 text-primary mb-2" />
               <CardTitle>Lightning Fast</CardTitle>
               <CardDescription>
                 Built with modern technology for instant redirects and real-time analytics updates.
@@ -99,21 +93,17 @@ export default async function Home() {
 
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between mb-2">
-                <Shield className="h-8 w-8 text-primary" />
-              </div>
+              <Shield className="h-8 w-8 text-primary mb-2" />
               <CardTitle>Secure & Reliable</CardTitle>
               <CardDescription>
-                Your links are protected with enterprise-grade security and 99.9% uptime guarantee.
+                Your links are protected with enterprise-grade security and reliable uptime.
               </CardDescription>
             </CardHeader>
           </Card>
 
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between mb-2">
-                <Globe className="h-8 w-8 text-primary" />
-              </div>
+              <Globe className="h-8 w-8 text-primary mb-2" />
               <CardTitle>Custom Short Codes</CardTitle>
               <CardDescription>
                 Create branded, memorable short links that reflect your business or personal brand.
@@ -123,9 +113,7 @@ export default async function Home() {
 
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between mb-2">
-                <MousePointerClick className="h-8 w-8 text-primary" />
-              </div>
+              <MousePointerClick className="h-8 w-8 text-primary mb-2" />
               <CardTitle>Easy to Use</CardTitle>
               <CardDescription>
                 Intuitive dashboard and streamlined workflow make link management effortless for everyone.
@@ -144,7 +132,7 @@ export default async function Home() {
                 Ready to shorten your first link?
               </h2>
               <p className="text-lg opacity-90 max-w-2xl mx-auto">
-                Join thousands of users who trust our platform for their link management needs.
+                Join users who trust our platform for their link management needs.
                 Get started today—it's free!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
