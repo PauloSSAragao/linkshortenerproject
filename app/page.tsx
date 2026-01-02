@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Link2, BarChart3, Zap, Shield, Globe, MousePointerClick } from 'lucide-react';
+import { AuthRedirect } from '@/components/auth-redirect';
 
 export default async function Home() {
   const { userId } = await auth();
@@ -15,6 +16,9 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
+      {/* Client-side redirect handler for Clerk authentication */}
+      <AuthRedirect />
+      
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-16 md:pt-32 md:pb-24">
         <div className="flex flex-col items-center text-center space-y-8 max-w-4xl mx-auto">

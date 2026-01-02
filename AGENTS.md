@@ -52,6 +52,8 @@ documentation in the `/docs` directory.
 - Never expose sensitive data to client components
 - Use Clerk for all authentication needs
 - Validate and sanitize all user input
+- **NEVER use `middleware.ts`** - This is deprecated in later versions of Next.js
+- Use `proxy.ts` instead for request interception and routing logic
 
 ## Getting Started
 
@@ -140,6 +142,7 @@ Use these path aliases consistently:
 - `lib/utils.ts` - Utility functions (including `cn`)
 - `drizzle.config.ts` - Drizzle ORM configuration
 - `components.json` - shadcn/ui configuration
+- `proxy.ts` - Request interception and routing logic (replaces deprecated middleware.ts)
 
 ## Support and Resources
 

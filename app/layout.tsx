@@ -59,6 +59,8 @@ export default function RootLayout({
       appearance={{
         theme: shadcn,
       }}
+      afterSignInUrl="/dashboard"
+      afterSignUpUrl="/dashboard"
     >
       <html lang="en" className="dark">
         <body
